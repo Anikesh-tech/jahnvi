@@ -1,0 +1,49 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(90deg, #ffecd2 0%, #fcb69f 100%);
+    padding: 10px 20px;
+    font-family: Arial, sans-serif;
+    flex-wrap: wrap;
+}
+
+.header .left,
+.header .center,
+.header .right {
+    flex: 1;
+    text-align: center;
+}
+
+.header .left {
+    text-align: left;
+}
+
+.header .right {
+    text-align: right;
+}
+
+.header .right a {
+    margin: 0 8px;
+    text-decoration: none;
+    font-size: 20px;
+    transition: transform 0.3s;
+}
+
+.header .right a:hover {
+    transform: scale(1.2);
+}
+
+.header .right button {
+    margin-left: 10px;
+    padding: 6px 12px;
+    background: #ff7e5f;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+}
+
+.header .right button:hover {
+    background: #ff3e00;
+}
